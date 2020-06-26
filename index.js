@@ -29,14 +29,14 @@ function findBy(array, findFn){
     }
     //else if (i = )
   }
-  //return null;
+  return null;
 }
 /*
 function findBy(array, findFn) {
   for (let i = 0, l = array.length; i < l; i++) {
     if (findFn(array[i])) {
       return array[i]
-    }learning
+    }
   }
   return null
 }
