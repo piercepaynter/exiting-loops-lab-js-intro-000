@@ -21,22 +21,29 @@ function keepGoing(array, changeValue, skipValue){
   }
   return array;
 }
-/*
+
 function findBy(array, findFn){
   for (let i=0; i<array.length; i++){
     if (array[i] === findFn){
       return findFn;
+      break;
+    }
+    else if (array[array.length-1] !== findFn){
+      return null;
+    }
+  }
+}
+
+/*
+function findBy(array, findFn){
+  let match = null
+   
+  for (let i = 0; i < array.length; i++) {
+    if (array[i] !== findFn) {
+      
+      match = mostlyOne[i]
+      break
     }
   }
 }
 */
-
-function findBy(array, findFn){
-  ///let x = null;
-  for (let i=0; i<array.length; i++){
-    if (array[i] === findFn){
-      return findFn;
-    }
-  }
-
-}
