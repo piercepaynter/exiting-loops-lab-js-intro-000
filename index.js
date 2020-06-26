@@ -33,5 +33,3 @@ function findBy(array, findFn){
     }
   }
 }
-
-
