@@ -38,5 +38,5 @@ function findBy(array, findFn){
       return findFn;
     }
   }
-  
+
 }
