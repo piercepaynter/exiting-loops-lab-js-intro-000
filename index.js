@@ -32,7 +32,7 @@ function findBy(array, findFn){
 */
 
 function findBy(array, findFn){
-  let x = null;
+  ///let x = null;
   for (let i=0; i<array.length; i++){
     if (array[i] === findFn){
       return findFn;
