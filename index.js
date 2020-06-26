@@ -28,10 +28,8 @@ function findBy(array, findFn){
       return array[i];
       break;
     }
-    else if (i=array.length-1 && array[i] !== findFn){
-      return null;
-    }
   }
+  return null;  
 }
 /*
 function findBy(array, findFn) {
