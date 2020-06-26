@@ -1,5 +1,5 @@
 function breakOut(array, changeValue, stopValue){
-  array.forEach(element => {
-    element = changeValue);
+  array.forEach((element, index, array) => {
+    array[index] = changeValue);
 });
 }
