@@ -21,7 +21,7 @@ function keepGoing(array, changeValue, skipValue){
   }
   return array;
 }
-
+/*
 function findBy(array, findFn){
   for (let i=0; i<array.length; i++){
     if (array[i] === findFn){
@@ -32,4 +32,13 @@ function findBy(array, findFn){
       return null;
     }
   }
+}
+*/
+function findBy(array, findFn) {
+  for (let i = 0, l = array.length; i < l; i++) {
+    if (findFn(array[i])) {
+      return array[i]
+    }
+  }
+  return null
 }
