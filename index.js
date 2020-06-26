@@ -9,3 +9,7 @@ function breakOut(array, changeValue, stopValue){
   }
   return array;
 }
+
+function keepGoing(array, changeValue, skipValue){
+
+}
