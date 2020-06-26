@@ -34,16 +34,4 @@ function findBy(array, findFn){
   }
 }
 
-/*
-function findBy(array, findFn){
-  let match = null
 
-  for (let i = 0; i < array.length; i++) {
-    if (array[i] !== findFn) {
-
-      match = mostlyOne[i]
-      break
-    }
-  }
-}
-*/
